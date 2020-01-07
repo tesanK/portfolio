@@ -52,7 +52,7 @@
 .menu a:hover,
 .show-menu-btn:hover,
 .hide-menu-btn:hover{
-    color: #3498db;
+    color: #fa300c;
 }
 
 #chk{
@@ -95,6 +95,8 @@
     .menu a{
         display: block;
         padding: 20px;
+        
+        
     }
 
     .hide-menu-btn{
@@ -108,6 +110,10 @@
     }
     #chk:checked ~ .menu a{
         color: #fff;
+        
+    }
+    #chk:checked ~ .menu a:hover{
+        color: rgb(251, 255, 19);
         
     }
 }
