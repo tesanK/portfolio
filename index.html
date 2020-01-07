@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>맛집 초이스</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <script>
+    $(".menu").click(function(){
+      alert("준비중 입니다.");
+    });
+  </script>
+  <body>
+        <div class="header">
+            <h2 class="logo">Food Choice</h2>
+            <input type="checkbox" id="chk">
+            <label for="chk" class="show-menu-btn">
+               <i class="fas fa-ellipsis-h"></i>
+            </label>
+        
+            <ul class="menu">
+                <a href="#">주변맛집</a>
+                <a href="#">관심목록</a>
+                <a href="#">맛집 등록</a>
+                <a href="#">회원가입</a>
+                <label for="chk" class="hide-menu-btn">
+                        <i class="fas fa-times"></i>
+                    </label>
+             </ul>
+        </div>
+
+        <div class="content">
+                <center>
+                   <img src="img.jpg" alt="#">
+                </center>
+                <p>
+                설명란
+                </p>
+        </div>
+    </body>
+</html> 
