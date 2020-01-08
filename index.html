@@ -11,9 +11,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
   <script>
-    $(".menu").click(function(){
-      alert("준비중 입니다.");
-    });
+    
   </script>
   <body>
         <div class="header">
@@ -27,7 +25,7 @@
                 <a href="#">주변맛집</a>
                 <a href="#">관심목록</a>
                 <a href="#">맛집 등록</a>
-                <a href="#">회원가입</a>
+                <a id="login" href="#">로그인</a>
                 <label for="chk" class="hide-menu-btn">
                         <i class="fas fa-times"></i>
                     </label>
@@ -41,6 +39,19 @@
                 <p>
                 설명란
                 </p>
+        </div>
+
+        <div class="bgLogin">
+          <div class="bgLogin-content">
+                  <div class="close">+</div>
+              <img src="NaIcon.png" alt="">
+                <form action="">
+                 <input id="inputBoxId" type="text" placeholder="이메일">          
+                 <input id="inputBoxPw" type="text" placeholder="비밀번호">
+                 <a href="" class="button">로그인</a>
+                 <a href="" class="button">회원가입</a>
+                </form>
+          </div>
         </div>
     </body>
 </html> 
