@@ -6,7 +6,7 @@
 }
 
 .header {
-    height: 100px;
+    height: 60px;
     background: #fff;
     padding: 0 20px;
     color: #333;
@@ -14,14 +14,14 @@
 }
 
 .logo{
-    line-height: 100px;
+    line-height: 60px;
     float: left;
     text-transform: uppercase;
 }
 
 .menu{
     float: right;
-    line-height: 100px;
+    line-height: 60px;
 }
 
 .menu a{
@@ -128,7 +128,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    display: none1;
+    display: none;
 }
 
 .bgLogin-content{
